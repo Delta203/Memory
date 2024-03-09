@@ -1,0 +1,35 @@
+# Memory
+# Plugin by Delta203
+# v1.20.1 Spigot, Java 17
+
+# Messages
+prefix: '§f[§3Memory§f] §6'
+loaded: '§aPlugin erfolgreich geladen.'
+
+help:
+  title: '§f| §fAlle nützlichen Befehle für das Spiel'
+  invite: '§b/memory invite §8<name> §7Lade jemanden zum spielen ein'
+  accept: '§b/memory accept §8<name> §7Nehme eine Einladung an'
+  deny: '§b/memory deny §8<name> §7Lehne eine Einladung ab'
+
+not_online: '§cDer Spieler §e%player% §cist nicht online.'
+not_urself: '§cDu kannst dich nicht selber einladen.'
+request:
+  already: '§cDu hast §e%player% §cbereits eine Einladung geschickt.'
+  sent: '§aDu hast §e%player% §aeine Anfrage geschickt.'
+  received: '§eDer Spieler §6%player% §ehat dich zu einer Runde eingeladen. '
+  accept: '§8§l[§a§lAnnehmen§8§l] '
+  deny: '§8§l[§c§lAblehnen§8§l]'
+requesting:
+  no_invite: '§cDu hast keine Einladung bekommen.'
+  not_online: '"§cDer Spieler §e%player% §cist nicht online.'
+  no_invite_received: '§cDer Spieler §e%player% §chat dir keine Einladung gesendet.'
+  you_denied: '§cDu hast die Einladung abgelehnt.'
+  denied: '§cDer Spieler §e%player% §chat die Einladung abgelehnt.'
+  
+inventory:
+  card: '§f§lKlick'
+  
+finished:
+  no_winner: '§7Das Spiel geht unentschieden aus.'
+  winner: '§aDer Spieler §e%player% §ahat die Runde gewonnen!'
